@@ -1,10 +1,10 @@
 # Kubernetes and Cloud Native Associate (KCNA) Practice Exam
 
-An interactive, browser-based mock exam simulator for the **[Kubernetes and Cloud Native Associate (KCNA)](https://training.linuxfoundation.org/certification/kubernetes-cloud-native-associate/)** certification. Built with pure HTML/CSS/JS with zero build steps or dependencies — ready for local use or GitHub Pages hosting.
+An interactive, browser-based mock exam simulator for the **[Kubernetes and Cloud Native Associate (KCNA)](https://training.linuxfoundation.org/certification/kubernetes-cloud-native-associate/)** certification. Built with pure HTML/CSS/JS with zero build steps or dependencies.
 
 ## Features
 
-- **258 questions** covering all 4 KCNA exam domains (including sets 1 & 2 from `KCNA-study-guide`)
+- **258 questions** covering all 4 KCNA exam domains
 - Choose your question count (1–258)
 - Flag questions for review
 - Navigate freely between questions
@@ -33,7 +33,7 @@ Just open `index.html` in your browser. No build step, no dependencies.
 open index.html
 ```
 
-Or use the deployed version.
+Or use the deployed version: https://kylethedeveloper.github.io/kcna-practice-exam/
 
 ## Disclaimer
 
