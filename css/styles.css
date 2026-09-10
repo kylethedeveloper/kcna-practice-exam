@@ -589,14 +589,14 @@ body {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  padding: 5px 12px;
-  background: var(--gray-100);
-  border: 1px solid var(--gray-300);
+  padding: 5px 14px;
+  background: var(--primary-light);
+  border: 1.5px solid var(--primary);
   border-radius: 20px;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 700;
   font-family: var(--font-mono);
-  color: var(--gray-800);
+  color: var(--primary-dark);
   transition: all var(--transition);
 }
 
@@ -614,9 +614,15 @@ body {
 }
 
 [data-theme="dark"] .exam-timer {
-  background: #1a1d21;
-  border-color: var(--gray-600);
-  color: var(--gray-200);
+  background: #1e293b;
+  border-color: #3b82f6;
+  color: #93c5fd;
+}
+
+[data-theme="dark"] .exam-timer.warning {
+  background: #451a1d;
+  border-color: #f87171;
+  color: #fca5a5;
 }
 .question-domain-badge[data-domain="Kubernetes Fundamentals"] {
   background: #e8effc;
